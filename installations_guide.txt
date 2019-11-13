@@ -4,14 +4,8 @@ Installations guide
 
 2) Hent og installer SageMath: https://www.sagemath.org/download.html
 
-2a) For Windows hent og installer VS Build Tools: 
-https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16
-Her skal man KUN installere "C++ Build Tools", ikke hele Visual Studio
+3) Ã…bn CMD(Windows)/Terminal(Mac/Linux) og kÃ¸r: "python -m pip install --upgrade pip"
 
-3) Åbn CMD(Windows)/Terminal(Mac/Linux) og kør: "python -m pip install --upgrade pip"
+4a) KÃ¸r nu "SageMath 8.9 Notebook":
 
-Hvis man gerne vil bruge Jupyter Notebook:
-Åbn CMD(Windows)/Terminal(Mac/Linux) og kør: "python -m pip install jupyter"
-
-Hvis man gerne vil bruge Jetbrains Pycharm: https://www.jetbrains.com/pycharm/download/#section=windows
-Når man trykker "Create Project" kan vælge en Interpreter, dvs. om man vil bruge Python eller SageMath
+4b) Hvis man gerne vil bruge Jetbrains Pycharm (Kun python): https://www.jetbrains.com/pycharm/download/#section=windows
