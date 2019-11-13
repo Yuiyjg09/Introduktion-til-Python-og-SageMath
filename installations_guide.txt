@@ -1,0 +1,17 @@
+Installations guide
+
+1) Hent Python 3 og installer (vigtigt: check "Add to PATH"): https://www.python.org/
+
+2) Hent og installer SageMath: https://www.sagemath.org/download.html
+
+2a) For Windows hent og installer VS Build Tools: 
+https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16
+Her skal man KUN installere "C++ Build Tools", ikke hele Visual Studio
+
+3) Åbn CMD(Windows)/Terminal(Mac/Linux) og kør: "python -m pip install --upgrade pip"
+
+Hvis man gerne vil bruge Jupyter Notebook:
+Åbn CMD(Windows)/Terminal(Mac/Linux) og kør: "python -m pip install jupyter"
+
+Hvis man gerne vil bruge Jetbrains Pycharm: https://www.jetbrains.com/pycharm/download/#section=windows
+Når man trykker "Create Project" kan vælge en Interpreter, dvs. om man vil bruge Python eller SageMath
