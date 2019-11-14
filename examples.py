@@ -115,3 +115,19 @@ f = open('example_test.txt','r+')
 for line in f:
     print(line)
 f.close()
+
+# try-except-finally
+myVar = 3
+
+try:
+    if myVar < 2:
+        raise Error()
+    
+    # Some other code
+
+except Error as e:
+    print("An Error has occured")
+    
+finally:
+    print(myVar)
+    
